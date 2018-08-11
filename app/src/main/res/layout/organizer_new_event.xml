@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="20dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post your Event"
+        android:textSize="32sp"
+        android:layout_margin="10dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:background="@color/bkg"
+        android:id="@+id/event_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title:"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:padding="10dp"/>
+
+    <EditText
+        android:background="@color/bkg"
+        android:id="@+id/event_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date:"
+        android:layout_margin="10dp"
+        android:inputType="date"
+        android:padding="10dp"/>
+
+    <EditText
+        android:background="@color/bkg"
+        android:id="@+id/event_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location:"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:padding="10dp"/>
+
+    <EditText
+        android:background="@color/bkg"
+        android:id="@+id/event_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description:"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:padding="10dp"/>
+
+
+    <Button
+        android:background="@color/btn"
+        android:textColor="@color/btn_text"
+        android:id="@+id/post"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="post"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
