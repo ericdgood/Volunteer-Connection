@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="20dp"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="your events:"
+        android:textAllCaps="true"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="@color/bkg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/bkg"
+            android:orientation="vertical">
+    <TextView
+        android:text="Apr"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+            <TextView
+                android:text="4"
+                android:gravity="center_horizontal"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code For Orlando"
+        android:textColor="@color/bkg"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="National Day of Hacking"
+            android:textColor="@color/bkg"
+            android:textSize="18sp"
+            android:paddingLeft="20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

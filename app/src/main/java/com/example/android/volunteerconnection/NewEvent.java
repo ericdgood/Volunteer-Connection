@@ -18,7 +18,7 @@ public class NewEvent extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(NewEvent.this, EventList.class));
+                startActivity(new Intent(NewEvent.this, EventListItems.class));
             }
         });
 

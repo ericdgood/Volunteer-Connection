@@ -29,6 +29,10 @@
             android:label="Organization Contact">
         </activity>
         <activity
+            android:name=".EventListItems"
+            android:label="Event List">
+        </activity>
+        <activity
             android:name=".Dashboard"
             android:label="Dashboard">
         </activity>
